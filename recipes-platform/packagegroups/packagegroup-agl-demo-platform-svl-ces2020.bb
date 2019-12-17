@@ -24,4 +24,5 @@ RDEPENDS_${PN} += " \
     html5-homescreen \
     html5-hvac \
     html5-launcher \
+    html5-mixer \
 "
