@@ -26,4 +26,5 @@ RDEPENDS_${PN} += " \
     html5-launcher \
     html5-mixer \
     html5-settings \
+    webapp-samples \
 "

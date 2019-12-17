@@ -1,0 +1,22 @@
+From ac6688442b5b8758c7eaad6f0b149cf47e83c2c1 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Jacobo=20Aragunde=20P=C3=A9rez?= <jaragunde@igalia.com>
+Date: Tue, 17 Dec 2019 18:07:27 +0100
+Subject: [PATCH] Remove some webapps
+
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 6b2062a..17d4a7b 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,4 +1,4 @@
+-APP_LIST=annex application-list aquarium blob falling-blocks hextris memory-match solar-system youtube jamendo
++APP_LIST=aquarium blob falling-blocks youtube jamendo
+ 
+ package:
+ 	mkdir -p package
+-- 
+2.11.0
+
