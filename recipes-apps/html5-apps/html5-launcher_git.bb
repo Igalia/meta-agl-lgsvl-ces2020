@@ -11,11 +11,8 @@ require html5-apps.inc
 
 PR = "r0"
 
-SRC_URI = " \
-  git://gerrit.automotivelinux.org/gerrit/apps/html5-launcher;protocol=https;branch=master \
-  file://html5-launcher-do-not-run-by-default.patch \
-"
-SRCREV = "673fdb7961e0703c13d66d69e9cca2b673c98b2f"
+SRC_URI = "git://github.com/AGL-web-applications/launcher.git;protocol=https;branch=ces2020"
+SRCREV = "${AUTOREV}"
 
 do_aglwgt_package() {
     cd ${B}
